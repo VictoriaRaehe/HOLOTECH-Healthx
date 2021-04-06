@@ -1,0 +1,96 @@
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
+
+.carousel-inner{
+	position:relative;
+	top:80px;
+}
+.item2
+{
+	height:600px;
+}
+h1{
+	color:black;
+	font-size:60px;
+	position: relative;
+	bottom:135px;
+	right:50px;
+	
+
+}
+body{
+	 font-family:Cambria;
+}
+/* FOOTER
+-------------------------------------------------- */
+* {
+  box-sizing: border-box;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.flex-item-left {
+  background-color:  #dedede;
+  padding: 10px;
+  flex: 50%;
+  color: black;
+}
+
+.flex-item-right {
+  background-color:  #dedede;
+  padding: 10px;
+  flex: 50%;
+  color: black;
+}
+a
+{
+	color:black;
+	}
+/* Responsive layout - makes a one column-layout instead of two-column layout */
+@media (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+.responsive {
+  width: 100%;
+  height: auto;
+ 
+}
+
+}
